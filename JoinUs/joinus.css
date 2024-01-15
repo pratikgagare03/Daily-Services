@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+.main{
+    background-color: rgb(41, 40, 40);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.userInput{
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0.2rem 2rem;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.userInput input{
+    display: block;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+    padding: 0.2rem 1rem;
+    width: 100%;
+}
+
+.userInput select{
+    width: 100%;
+    padding: 0.3rem 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.userInput h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.userInput button{
+    width: 50%;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: rgb(5, 158, 158);
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .userInput{
+        width: 94%;
+    }
+}
